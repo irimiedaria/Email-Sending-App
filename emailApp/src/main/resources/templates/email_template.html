@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(141, 110, 99, 0.4);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .email-content {
+            background-color: #8d6e63;
+            padding: 20px;
+            text-align: center;
+            color: #330000;
+        }
+        .email-header img {
+            width: 100%;
+            max-width: 600px;
+            max-height: 200px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="email-content">
+    <div class="email-header">
+        <img src="$IMAGE_CONTENT$" alt="Header Image">
+    </div>
+    <h1>$SUBJECT_CONTENT$</h1>
+    <p>$BODY_CONTENT$</p>
+</div>
+</body>
+</html>
+
+
+
